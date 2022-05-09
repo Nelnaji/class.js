@@ -36,9 +36,15 @@ class Personne {
         this.lieu = lieu;
         this.argent = argent;
         this.panier = panier;
-        this.se_deplacer = function se_deplacer(x) {};
-        this.payer = function payer(x) {};
-        this.couper = function couper(x, y) {};
+        this.se_deplacer = se_deplacer
+
+        function se_deplacer(x) {};
+        this.payer = payer
+
+        function payer(x) {};
+        this.couper = couper
+
+        function couper(x, y) {};
     }
 }
 
